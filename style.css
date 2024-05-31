@@ -6,11 +6,11 @@
 
 .navbar_all {
     top: 0;
-     left: 0;
-      right: 0;
-      position: fixed;
+    left: 0;
+    right: 0;
+    position: fixed;
+    
 }
-
 
 
 .navbar{
@@ -184,6 +184,11 @@ span {
     font-weight: 750;
 }
 
+.panel-deals a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /** hero-section **/
 
@@ -199,6 +204,7 @@ span {
 .hero-msg {
     background-color: white;
     color: black;
+    font-weight: bold;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -209,6 +215,7 @@ span {
 
 .hero-msg a {
     color: #007585;
+    text-decoration: none;
 }
 
 /** box-section **/
@@ -329,3 +336,39 @@ footer {
     color: #dddddd;
     padding-left: 10px;
 }
+
+
+
+.extra_deal_hero-section{
+    margin-top: 80px;
+    background-image: url("image/banner1.png");
+    height: 280px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.extra_deal_hero-msg{
+
+    background-color : none;
+    color: rgb(116, 116, 223);
+    
+    font-size: 35px;
+}
+
+.extra_deal_hero-msg span {
+    font-size: 40px;
+    color: red;
+}
+
+
+
+ .dropdown{
+    margin-top: 100px;
+} 
+
+
+
+
+
